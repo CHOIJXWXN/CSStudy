@@ -16,7 +16,7 @@
 - 비동기식 입출력 (Asynchronous I/O)
   - I/O가 시작된 후 입출력 작업이 끝나기를 기다리지 않고 제어가 사용자 프로그램에 넘어감
 
-![2-2-1](CS.assets/2-2-1.jpg)
+![2-2-1](CS.assets/2-2-1.png)
 
 
 
@@ -70,4 +70,4 @@ Main Memory까지가 Primary (Executable), 즉 CPU가 직접 접근 가능
 
 ​        *cf) 커널함수의 호출 = System Call* 
 
-![2-2-2](CS.assets/2-2-2.jpg)
+![2-2-2](CS.assets/2-2-2.png)

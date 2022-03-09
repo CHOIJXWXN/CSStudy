@@ -2,9 +2,9 @@
 
 
 
-![2-1-1](CS.assets/2-1-1.jpg)
+![2-1-1](CS.assets/2-1-1.png)
 
-- CPU는 매 클럭 사이클마다 메모리에서 instruction (기계어)을 하나씩 읽어서 실행
+- CPU는 매 클럭 사이클마다 메모리에서 instruction (기계어) 을 하나씩 읽어서 실행
 - Mode Bit : 실행 중인 게 운영체제인지 사용자 프로그램인지 구분
   - 운영체제 실행 : 커널 모드 혹은 모니터 모드 (0)
   - 사용자 프로그램 실행 : 사용자 모드 (1)
@@ -23,7 +23,7 @@
 
 1. 사용자 프로그램이 CPU에 직접 Interrupt (소프트웨어 인터럽트, 즉 Trap) 를 걸어 OS 호출 (==System Call==)
 2. 올바른 요청인지 확인 후 I/O 수행 (이 때, CPU는 다른 동작 중)
-3. I/O 완료 시 Device Controller가. ==Interrupt==를 걸어 제어권을 시스템 콜 다음 명령으로 옮김
+3. I/O 완료 시 Device Controller가 ==Interrupt==를 걸어 제어권을 시스템 콜 다음 명령으로 옮김
 
 ​	   *cf) Interrupt 거는 순서 : 인터럽트 벡터의 특정 위치로 이동 > 인터럽트 서비스 루틴으로 이동*
 
