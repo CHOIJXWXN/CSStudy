@@ -38,9 +38,9 @@
   - Terminated
   - Running > Blocked
 
-     위 경우의 스케줄링은 강제로 빼앗지 않고 자진 반납한 경우 (==Nonpreemptive==)
+     위 경우의 스케줄링은 강제로 빼앗지 않고 자진 반납한 경우 (==Nonpreemptive== : 비선점형)
 
   - Running > Ready
   - Blocked > Ready
 
-     등의 경우에는 스케줄링이 강제로 빼앗긴 경우 (==Preemptive==)
+     등의 경우에는 스케줄링이 강제로 빼앗긴 경우 (==Preemptive== : 선점형)
